@@ -140,6 +140,23 @@ If you now go back to GitHub and refresh the page, you should now see the
 current version of your project directory (containing just the `README`) saved
 in the cloud!
 
+## Exercise
+
+Let's go back to our todo's project that we created earlier and get it backed up
+on GitHub. Start by navigating back into that directory, then complete the steps
+below. If you need a reminder of how to do any of the steps, it is totally fine
+to go back and review the lesson or use Google!
+
+1. Create a remote repo for the project on GitHub.
+2. Connect the local repo to the remote repo.
+3. Push the code up from the local repo to the remote.
+4. Refresh the page on GitHub to verify that the code was pushed up.
+5. Open the `todo-list.txt` file in VS Code and add one or two more todo's.
+6. Add and commit your changes.
+7. Push the updated code to the remote (remember, you can use a simpler command
+   this time!).
+8. Check to make sure the latest changes are saved on GitHub.
+
 ## Conclusion
 
 Being able to add Git remotes allows you to back up your local repository to a
