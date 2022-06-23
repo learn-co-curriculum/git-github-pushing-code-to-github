@@ -11,7 +11,8 @@
 
 You've seen how valuable _remotes_ are for _getting_ software. Now we can take a
 look at the other side of the transaction: how we can create a remote repository
-for our own projects and synchronize our _local_ repository to it using `git remote` and `git push`.
+for our own projects and synchronize our _local_ repository to it using `git
+remote` and `git push`.
 
 Once your code is on a _remote_ repo, it's backed up — which is always a good
 thing. Also, once you push to a remote, you can choose whether to let others
@@ -64,8 +65,8 @@ There are a few steps to follow to create a _remote_ repository on GitHub.
 2. Enter a name for your repository in the "Repository name" field. You can name
    it whatever you'd like, but to avoid confusion you may want to use the same
    name you used locally, `my_new_project`. You can leave the remaining options
-   as they are — the default options are fine. Click the green 'Create
-   repository' button.
+   as they are — the default options are fine. Click the green "Create
+   repository" button.
 
 3. After you create the _remote_ repository, you should see a "Quick setup" box
    at the top of the page. Make sure the correct option is selected (SSH or
@@ -131,9 +132,10 @@ $ git push -u origin main
 ```
 
 The first time you push code up to a newly-added remote repository, using the
-`-u` (short for `--set-upstream`) flag will tell Git to "save" the remote repository as the default push
-destination for your current branch. What this means is that, for every
-subsequent push from the `main` branch, you will only need to run `git push`.
+`-u` (short for `--set-upstream`) flag will tell Git to "save" the remote
+repository as the default push destination for your current branch. What this
+means is that, for every subsequent push from the `main` branch, you will only
+need to run `git push`.
 
 If you go back to GitHub and refresh the page, you should now see the
 current version of your project directory (containing just the `README`) saved
