@@ -11,8 +11,7 @@
 
 You've seen how valuable _remotes_ are for _getting_ software. Now we can take a
 look at the other side of the transaction: how we can create a remote repository
-for our own projects and synchronize our _local_ repository to it using `git
-remote` and `git push`.
+for our own projects and synchronize our _local_ repository to it using `git remote` and `git push`.
 
 Once your code is on a _remote_ repo, it's backed up — which is always a good
 thing. Also, once you push to a remote, you can choose whether to let others
@@ -132,11 +131,11 @@ $ git push -u origin main
 ```
 
 The first time you push code up to a newly-added remote repository, using the
-`-u` flag will tell Git to "save" the remote repository as the default push
+`-u` (short for `--set-upstream`) flag will tell Git to "save" the remote repository as the default push
 destination for your current branch. What this means is that, for every
 subsequent push from the `main` branch, you will only need to run `git push`.
 
-If you now go back to GitHub and refresh the page, you should now see the
+If you go back to GitHub and refresh the page, you should now see the
 current version of your project directory (containing just the `README`) saved
 in the cloud!
 
