@@ -1,4 +1,4 @@
-# Pushing Code with Git
+# Pushing Code to GitHub
 
 ## Learning Goals
 
